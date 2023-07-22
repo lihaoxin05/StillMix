@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=0 PORT=11010 ../tools/dist_train.sh ../configs/stillmix/tsm/IN_pretrain/hmdb51/stillmix_bank_hmdb51_1.py 1 --seed 1 --diff-seed --deterministic --cfg-options work_dir=./work_dirs/stillmix/tsm/IN_pretrain/hmdb51/stillmix_bank/1 --validate
+
+CUDA_VISIBLE_DEVICES=0 PORT=11010 ../tools/dist_train.sh ../configs/stillmix/slowfast/K400_pretrain/ucf101/stillmix_bank_ucf101_1.py 1 --seed 1 --diff-seed --deterministic --cfg-options work_dir=./work_dirs/stillmix/slowfast/K400_pretrain/ucf101/stillmix_bank/1 --validate

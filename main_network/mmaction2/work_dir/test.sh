@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=0 PORT=11010 ../tools/dist_test.sh ../configs/stillmix/tsm/eval/hmdb51/eval_mix_dynamic_static_stripe.py ./work_dirs/stillmix/tsm/IN_pretrain/hmdb51/stillmix_bank/1/epoch_100.pth 1 --out results.pkl --eval top_k_accuracy
+
+CUDA_VISIBLE_DEVICES=0 PORT=11010 ../tools/dist_test.sh ../configs/stillmix/slowfast/eval/ucf101/eval_box_place365.py ./work_dirs/stillmix/slowfast/K400_pretrain/ucf101/stillmix_bank/1/latest.pth 1 --out results.pkl --eval top_k_accuracy

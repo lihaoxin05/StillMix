@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 PORT=11010 ../tools/dist_test.sh ../configs/stillmix/Swin-T/eval/kinetics400/eval_vqgan.py ./work_dirs/stillmix/Swin-T/IN_pretrain/kinetics400/stillmix_bank_sorted/1/latest.pth 1 --out results.pkl --eval top_k_accuracy
