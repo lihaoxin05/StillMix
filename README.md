@@ -27,5 +27,16 @@ We save the results as pkl files. They are released on [Google Drive](https://dr
 ## Main Network
 For training the main network, please go to [main_network](main_network).
 
+## Citation
+If you find our repository useful, please consider citing our paper.
+```
+@InProceedings{StillMix-2023,
+author = {Haoxin Li and Yuan Liu and Hanwang Zhang and Boyang Li}, 
+title = {Mitigating and Evaluating Static Bias of Action Representations in the Background and the Foreground}, 
+booktitle = {International Conference on Computer Vision (ICCV)}, 
+year = {2023}
+}
+```
+
 ## Contact
 If you have any problem please email me at haoxin003@e.ntu.edu.sg or lihaoxin05@gmail.com.
